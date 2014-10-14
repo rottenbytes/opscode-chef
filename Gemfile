@@ -3,7 +3,7 @@ gemspec :name => "chef"
 
 gem "activesupport", "< 4.0.0", :group => :compat_testing, :platform => "ruby"
 # TODO remove this when next version of ffi-yajl is released including this change
-gem "ffi-yajl", :github => 'tyler-ball/ffi-yajl', :branch => 'tball/remove_to_json'
+#gem "ffi-yajl", :path => "../ffi-yajl"
 
 group(:docgen) do
   gem "yard"
